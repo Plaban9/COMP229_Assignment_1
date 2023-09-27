@@ -32,6 +32,10 @@ Date: September 27, 2023 */
     background-color: turquoise;
 }
 
+.bg-home{
+    background-color: lightcyan;
+}
+
 .test {
     width: 100px; /*20px is too small the icon is 20px (approx) you need more space */
 }
