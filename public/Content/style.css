@@ -1,3 +1,7 @@
+/* File Name: styles.css
+Student's Name: Plaban Biswas
+Student ID: 301344949
+Date: September 27, 2023 */
 .nav-item .nav-link{
     color: grey;
 }
@@ -23,3 +27,13 @@
 .bg-cream{
     background-color: rgb(214, 218, 170);
 }
+
+.bg-turquoise{
+    background-color: turquoise;
+}
+
+.test {
+    width: 100px; /*20px is too small the icon is 20px (approx) you need more space */
+}
+
+.test span {white-space:nowrap}

@@ -1,3 +1,8 @@
+<!-- File Name: main_nav.ejs
+Student's Name: Plaban Biswas
+Student ID: 301344949
+Date: September 27, 2023 -->
+<!-- DOC: https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-navy">
   <div class="container-fluid">
     <img src="/img/logo.png" alt="logo" style: width="30px" ; height="30px">
@@ -22,28 +27,27 @@
               <%}%>
                 <a class="nav-link" href="/about"><i class="fa-solid fa-address-card"></i>About</a>
             </li>
-            <% if (title=="Contact" ){%>
+            <% if (title=="Projects" ){%>
               <li class="nav-item active">
                 <%}else{%>
               <li class="nav-item">
                 <%}%>
-                  <a class="nav-link" href="/contact"><i class="fa-solid fa-address-book"></i>Contact</a>
+                  <a class="nav-link" href="/projects"><i class="fa-solid fa-laptop-file"></i>Projects</a>
               </li>
-              <% if (title=="Projects" ){%>
+              <% if (title=="Services" ){%>
                 <li class="nav-item active">
                   <%}else{%>
                 <li class="nav-item">
                   <%}%>
-                    <a class="nav-link" href="/projects"><i class="fa-solid fa-laptop-file"></i>Projects</a>
+                    <a class="nav-link" href="/services"><i class="fa-brands fa-servicestack"></i>Services</a>
                 </li>
-                <% if (title=="Services" ){%>
+                <% if (title=="Contact" ){%>
                   <li class="nav-item active">
                     <%}else{%>
                   <li class="nav-item">
                     <%}%>
-                      <a class="nav-link" href="/services"><i class="fa-brands fa-servicestack"></i>Services</a>
-
-                  </li>
+                      <a class="nav-link" href="/contact"><i class="fa-solid fa-address-book"></i>Contact</a>
+                  </li>F
       </ul>
     </div>
   </div>

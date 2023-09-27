@@ -1,3 +1,7 @@
+// File Name: index.routes.js
+// Student's Name: Plaban Biswas
+// Student ID: 301344949
+// Date: September 27, 2023
 var express = require('express');
 var router = express.Router();
 
@@ -7,6 +11,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
 
+// POST For Contact Form
 router.post('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });

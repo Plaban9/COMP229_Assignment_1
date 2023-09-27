@@ -1,16 +1,50 @@
+<!-- File Name: contact.ejs
+Student's Name: Plaban Biswas
+Student ID: 301344949
+Date: September 27, 2023 -->
 <%- include ('partials/header.ejs') %>
     <%- include ('partials/main_nav.ejs') %>
 
         <!--<img src="img/logo.png" alt="logo">-->
-
-        <main class="container-fluid bg-cream">
+        <!-- DOC: https://getbootstrap.com/docs/5.3/components/card/#header-and-footer -->
+        <!-- DOC: https://getbootstrap.com/docs/5.3/forms/form-control/#example -->
+        <!-- DOC: https://getbootstrap.com/docs/5.3/forms/overview/#overview -->
+        <main class="container-fluid bg-turquoise">
             <div class="jumbotron">
-
                 <h1>Welcome to the <%= title %> Page</h1>
-                <form method="post" action="/" >
+                <div class="jumbotron">
+                    <div class="card">
+                        <h5 class="card-header">Socials</h5>
+                        <div class="card-body">
+                            <h5 class="card-title">You can find me on these platforms most of the time.</h5>
+                            <span class="fa-stack fa-lg">
+                                <a class="nav-link" href="https://github.com/Plaban9/"><i
+                                        class="fa-brands fa-github fa-fade fa-2xl"></i></a>
+                            </span>
+                            <span class="fa-stack fa-lg">
+                                <a class="nav-link" href="https://www.linkedin.com/in/plaban-biswas/"><i
+                                        class="fa-brands fa-linkedin fa-fade fa-2xl"></i></a>
+                            </span>
+                            <span class="fa-stack fa-lg">
+                                <a class="nav-link" href="https://www.instagram.com/plaban96/"><i
+                                        class="fa-brands fa-instagram fa-fade fa-2xl"></i></a>
+                            </span>
+                            <!-- Cool Pulse Effect lol -->
+                            <!-- <div class="test">
+                                <a class="nav-link" href="https://github.com/Plaban9/"><i
+                                        class="fa-brands fa-github fa-2xl"></i></a>
+                                <a class="nav-link" href="https://www.linkedin.com/in/plaban-biswas/"><i
+                                        class="fa-brands fa-linkedin fa-2xl"></i></a> -->
+                        </div>
+
+                    </div>
+                </div>
+                <br>
+                <form method="post" action="/">
                     <div class="form-group">
                         <label for="exampleName">Name</label>
-                        <input type="text" class="form-control" id="name" aria-describedby="name">
+                        <input type="text" class="form-control" id="name" aria-describedby="name"
+                            placeholder="Enter name here...">
                     </div>
                     <div class="form-group">
                         <label for="examplePhone">Phone</label>
@@ -29,11 +63,12 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter message here..." ></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Enter message here..."></textarea>
                     </div>
                     <div class="form-group form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Subscribe for Update</label>
+                        <label class="form-check-label" for="exampleCheck1">Subscribe for Updates</label>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
