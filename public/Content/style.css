@@ -1,0 +1,25 @@
+.nav-item .nav-link{
+    color: grey;
+}
+.nav-item.active .nav-link{
+    color: aliceblue;
+}
+.nav-item:hover .nav-link{
+    color: aqua;
+}
+
+.nav-link:hover{
+    color: aqua;
+}
+
+.navbar-text{
+    color: aliceblue;
+}
+
+.bg-navy{
+    background-color: rgb(2, 24, 52);
+}
+
+.bg-cream{
+    background-color: rgb(214, 218, 170);
+}
